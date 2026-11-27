@@ -56,3 +56,43 @@ textarea:focus-visible {
     transition: none !important;
   }
 }
+
+.btn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  color: #fff;
+  background: var(--navy);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background: var(--navy-dark);
+}
+
+.btn-outline {
+  color: var(--navy);
+  background: #fff;
+  border-color: var(--navy);
+}
+
+.btn-outline:hover {
+  background: var(--blue-light);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app main {
+  flex: 1;
+}

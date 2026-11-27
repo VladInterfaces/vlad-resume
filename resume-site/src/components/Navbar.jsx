@@ -6,7 +6,7 @@ function Navbar() {
     <header className="site-header">
       <nav className="navbar" aria-label="Main">
         <Link to="/" className="brand">
-          Vladimir <span>[Gomez]</span>
+          Vladimir <span>Gomez</span>
         </Link>
         <div className="nav-links">
           <NavLink to="/" end className="nav-link">Home</NavLink>

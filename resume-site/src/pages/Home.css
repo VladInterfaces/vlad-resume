@@ -1,0 +1,168 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--blue-light);
+}
+
+.hero-dot {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.hero-dot-orange {
+  top: -70px;
+  right: -70px;
+  width: 240px;
+  height: 240px;
+  background: var(--orange);
+}
+
+.hero-dot-blue {
+  bottom: -80px;
+  left: -80px;
+  width: 140px;
+  height: 140px;
+  background: var(--blue);
+}
+
+.hero-inner {
+  position: relative;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 72px 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 56px;
+  align-items: center;
+}
+
+.eyebrow {
+  margin: 0 0 16px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+
+.hero h1 {
+  margin: 0 0 16px;
+  font-size: 60px;
+  line-height: 1.08;
+}
+
+.hero h1 span {
+  color: var(--navy);
+}
+
+.hero-bar {
+  width: 88px;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--orange);
+  margin-bottom: 24px;
+}
+
+.hero-bio {
+  margin: 0 0 32px;
+  font-size: 19px;
+  max-width: 520px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.photo-wrap {
+  position: relative;
+  justify-self: center;
+  width: 100%;
+  max-width: 380px;
+}
+
+.photo-offset {
+  position: absolute;
+  inset: 16px -16px -16px 16px;
+  border: 3px solid var(--orange);
+  border-radius: 28px;
+}
+
+.photo {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  background: #fff;
+  border: 3px solid var(--blue);
+  border-radius: 28px;
+}
+
+.highlights {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 56px 32px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.card h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card-orange {
+  background: var(--orange-light);
+  border-top: 6px solid var(--orange);
+}
+
+.card-blue {
+  background: var(--blue-light);
+  border-top: 6px solid var(--blue);
+}
+
+.cta-section {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 32px 64px;
+}
+
+.cta-band {
+  background: var(--blue-light);
+  border-radius: 20px;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cta-band h2 {
+  margin: 0 0 6px;
+  font-size: 26px;
+}
+
+.cta-band p {
+  margin: 0;
+  font-size: 17px;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 44px;
+  }
+}

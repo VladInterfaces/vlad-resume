@@ -1,0 +1,31 @@
+.site-footer {
+  background: var(--navy);
+  border-top: 6px solid var(--orange);
+  color: #fff;
+}
+
+.footer-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 28px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.site-footer a {
+  color: #fff;
+}
+
+.site-footer a:hover {
+  color: #F2A878;
+}
